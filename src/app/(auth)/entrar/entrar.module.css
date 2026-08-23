@@ -1,0 +1,70 @@
+.notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 13px 14px;
+  border: 1px solid;
+  border-radius: 13px;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.notice span {
+  display: grid;
+  flex: 0 0 auto;
+  width: 21px;
+  height: 21px;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.notice p {
+  margin: 0;
+}
+
+.noticeSuccess {
+  border-color: rgba(80, 229, 180, 0.2);
+  color: #b9f9e3;
+  background: rgba(31, 119, 92, 0.19);
+}
+
+.noticeSuccess span {
+  color: #062019;
+  background: #64e8be;
+}
+
+.noticeError {
+  border-color: rgba(255, 109, 109, 0.2);
+  color: #ffc1c1;
+  background: rgba(111, 30, 39, 0.2);
+}
+
+.noticeError span {
+  color: #17090b;
+  background: #ff9898;
+}
+
+.signupPrompt {
+  margin: 4px 0 0;
+  color: #71899a;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.signupPrompt a {
+  color: #64e5fa;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.signupPrompt a:hover {
+  color: #a5f3ff;
+  text-decoration: underline;
+}
+
+.signupPrompt a:focus-visible {
+  outline: 3px solid rgba(76, 224, 255, 0.46);
+  outline-offset: 3px;
+}
